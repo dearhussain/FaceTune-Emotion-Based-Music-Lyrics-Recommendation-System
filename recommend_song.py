@@ -9,10 +9,6 @@ Original file is located at
 # Step 1: Create a Spotify Developer Account & App
 """
 
-# Client ID = fe53550b4d66474bb1fe8e4b2c0ec1d7
-
-# Client secret = 523d821613094c92bb06f302afc85742
-
 """# Step 2: Install Spotipy in Colab"""
 
 # !pip install spotipy
@@ -23,8 +19,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # Replace with your actual Client ID and Secret
-CLIENT_ID = 'fe53550b4d66474bb1fe8e4b2c0ec1d7'
-CLIENT_SECRET = '523d821613094c92bb06f302afc85742'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 auth_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
